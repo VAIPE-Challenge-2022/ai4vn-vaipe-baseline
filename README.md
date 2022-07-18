@@ -2,6 +2,8 @@
 ## Introduction
 
 YOLOv6 is a single-stage object detection framework dedicated to industrial applications, with hardware-friendly efficient design and high performance.
+This repo is inherited from official implementation repo of Yolov6 with modifications in evaluation (wmAP) and convert dataset for AI4VN challenge.
+With yolov6s configuration, this baseline achieved approximately 44% wmAP on public test. Feel free to fork and edit this baseline. You should utilize the logical constraints from Prescription data by adding OCR module in this repo.
 
 
 ## Quick Start
