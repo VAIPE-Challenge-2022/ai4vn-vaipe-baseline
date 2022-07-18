@@ -29,7 +29,6 @@ Multi GPUs (DDP mode recommended)
 
 ```shell
 python -m torch.distributed.launch --nproc_per_node 8 tools/train.py --batch 256 --conf configs/yolov6s.py --data data/coco.yaml --device 0,1,2,3,4,5,6,7
-                                                                                        configs/yolov6n.py
 ```
 
 - conf: select config file to specify network/optimizer/hyperparameters
