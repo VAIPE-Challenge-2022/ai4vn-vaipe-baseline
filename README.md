@@ -1,4 +1,6 @@
 # YOLOv6 - VAIPE baseline
+![](https://vaipe.org/static/media/cover.72451244.png)
+
 ## Introduction
 
 YOLOv6 is a single-stage object detection framework dedicated to industrial applications, with hardware-friendly efficient design and high performance.
