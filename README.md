@@ -13,8 +13,8 @@ With yolov6s configuration, this baseline achieved approximately **44% wmAP on p
 ### Install
 
 ```shell
-git clone https://github.com/meituan/YOLOv6
-cd YOLOv6
+git clone https://github.com/VAIPE-Challenge-2022/ai4vn-vaipe-baseline
+cd ai4vn-vaipe-baseline
 pip install -r requirements.txt
 ```
 
