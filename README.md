@@ -24,7 +24,6 @@ Single GPU
 
 ```shell
 python tools/train.py --batch 32 --conf configs/yolov6s.py --data data/coco.yaml --device 0
-                                        configs/yolov6n.py
 ```
 
 Multi GPUs (DDP mode recommended)
@@ -64,7 +63,6 @@ Run evaluation on VAIPE public test
 
 ```shell
 python tools/eval.py --data data/ai4vn.yaml --batch 32 --weights yolov6s.pt --task val
-                                                                yolov6n.pt
 ```
 
 ### Resume
